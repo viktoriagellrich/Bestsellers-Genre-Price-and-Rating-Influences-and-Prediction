@@ -1,7 +1,8 @@
 # Bestsellers-Genre-Price-and-Rating-Influences-and-Prediction
 
 ## Files of this Repository
-* the-world-belongs-to-those-who-read.ipynb
+* bestsellers with categories.xls: Input data
+* the-world-belongs-to-those-who-read.ipynb: Data analysis and model
 * README.md
 
 ## Libraries
@@ -22,12 +23,12 @@ The following libraries are used for the data analysis:
 This is based on a dataset on Amazon's Top 50 bestselling books from 2009 to 2019. The data has been categorized into fiction and non-fiction using Goodreads. Goodreads is an American social cataloging website that allows people to search their database of books, annotations, quotes, and reviews. 
 
 Features: 
-* Name (String): Name of the Book
-* Author (String): Author of the Book
-* User Rating (Float): Amazon User Rating
+* Name (String): Name of the book
+* Author (String): Author of the book
+* User Rating (Float): Amazon user rating
 * Reviews (Integer): Number of reviews written on Amazon
 * Price (Integer): Price of the book (as at 13/10/2020)
-* Year (Integer): The Year(s) it ranked on the bestseller
+* Year (Integer): The year(s) it ranked on the bestseller
 * Genre (String): Whether fiction or non-fiction
 
 
